@@ -60,6 +60,7 @@ class Person
         "Hi #{friend.name}! It's #{self.name}. How are you?"
     end
 
+
     def start_conversation(friend, topic)
         case topic
         when "politics"
@@ -74,3 +75,4 @@ class Person
     end
 
 end
+
